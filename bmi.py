@@ -9,7 +9,7 @@ def calculate_bmi(height, weight):
     print("Weight =", weight)
 
     # Calculate BMI
-    bmi = weight / (height ** 2)
+    bmi = weight / (height ** 2)    
     print("BMI =", round(bmi, 2))
 
     # Conditional classification
